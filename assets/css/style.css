@@ -35,7 +35,7 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
+    hsla(265, 83%, 57%, 0.796) 0%, 
     hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
@@ -50,8 +50,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsla(265, 83%, 57%, 0.796), 
+    hsla(265, 83%, 57%, 0.796)
   );
 
   /* solid */
@@ -63,8 +63,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsla(265, 83%, 57%, 0.796);
+  --vegas-gold: hsla(265, 83%, 57%, 0.796);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -335,7 +335,10 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
+.img-perfil{
+  border-radius: 40px;
 
+}
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
